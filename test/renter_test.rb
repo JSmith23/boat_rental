@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/renter'
-# require '.lib/dock'
+require './lib/dock'
 
 class RenterTest < MiniTest::Test
   def test_it_exists
